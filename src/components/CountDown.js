@@ -22,11 +22,7 @@ const CountDown = () => {
       days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
   }, 1000);
 
-  return (
-    <p id="demo">
-      {days + "d " + hours + "h " + minutes + "m " + seconds + "s "}
-    </p>
-  );
+  return <p id="demo"></p>;
 };
 
 export default CountDown;
