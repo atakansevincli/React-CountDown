@@ -1,12 +1,13 @@
-import CountDown from "./components/CountDown";
-import "./App.css";
+import AvatarSection from "./components/AvatarSection";
+import Header from "./components/Header";
+
+import "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <CountDown />
-      </header>
+      <Header />
+      <AvatarSection />
     </div>
   );
 }
